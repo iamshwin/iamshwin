@@ -15,7 +15,7 @@ REPO_NOTES = {"spoticron": "scheduled job that overwrote Spotify's Daily Drive p
 REPO_DATES = {"spoticron": "2023-10-16"}
 # Upstream titles stay verbatim, except where a title means nothing out of context. None hides the entry.
 TITLE_OVERRIDES = {
-    "https://github.com/phileasme/GitPeek/pull/1": "GitPeek browser extension, built at a GDG hackathon",
+    "https://github.com/phileasme/GitPeek/pull/1": None,
     "https://github.com/phileasme/GitPeek/pull/2": None,
     "https://github.com/hiroyamada/cool_machine/pull/1": None,
 }

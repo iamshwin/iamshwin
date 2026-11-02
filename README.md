@@ -21,7 +21,4 @@ Merged pull requests and my own projects, newest first. A scheduled job rebuilds
 - [pandas-dev/pandas](https://github.com/pandas-dev/pandas/pull/26624): DOC: Tidy documentation about plotting Series histograms
 - [fastai/fastai](https://github.com/fastai/fastai/pull/1573): Improved readability of `model_summary` parameters
 - [fastai/fastai](https://github.com/fastai/fastai/pull/1570): Add comma separator for numbers in the thousands for better readability
-
-**2017**
-- [phileasme/GitPeek](https://github.com/phileasme/GitPeek/pull/1): GitPeek browser extension, built at a GDG hackathon
 <!-- timeline:end -->
