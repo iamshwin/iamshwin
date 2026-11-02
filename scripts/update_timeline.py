@@ -10,7 +10,7 @@ from pathlib import Path
 USER = "iamshwin"
 README = Path(__file__).parent.parent / "README.md"
 SKIP_REPOS = {USER, "dotfiles"}
-REPO_NOTES = {"spoticron": "scheduled job that rebuilt my Daily Drive playlist, because I don't like the original"}
+REPO_NOTES = {"spoticron": "scheduled job that overwrote Spotify's Daily Drive playlist... because I didn't like their algorithm"}
 # Upstream titles stay verbatim, except where a title means nothing out of context.
 TITLE_OVERRIDES = {
     "https://github.com/phileasme/GitPeek/pull/1": "GitPeek browser extension, built at a GDG hackathon",

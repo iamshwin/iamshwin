@@ -8,7 +8,7 @@ Merged pull requests and my own projects, newest first. A scheduled job rebuilds
 
 <!-- timeline:start -->
 **2023**
-- [spoticron](https://github.com/iamshwin/spoticron): scheduled job that rebuilt my Daily Drive playlist, because I don't like the original
+- [spoticron](https://github.com/iamshwin/spoticron): scheduled job that overwrote Spotify's Daily Drive playlist... because I didn't like their algorithm
 
 **2022**
 - [hiroyamada/cool_machine](https://github.com/hiroyamada/cool_machine/pull/1): Add loudspeaker code
