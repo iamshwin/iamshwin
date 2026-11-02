@@ -11,10 +11,13 @@ USER = "iamshwin"
 README = Path(__file__).parent.parent / "README.md"
 SKIP_REPOS = {USER, "dotfiles"}
 REPO_NOTES = {"spoticron": "scheduled job that overwrote Spotify's Daily Drive playlist... because I didn't like their algorithm"}
-# Upstream titles stay verbatim, except where a title means nothing out of context.
+# The repo was recreated later, so its API creation date is not when the project started.
+REPO_DATES = {"spoticron": "2023-10-16"}
+# Upstream titles stay verbatim, except where a title means nothing out of context. None hides the entry.
 TITLE_OVERRIDES = {
     "https://github.com/phileasme/GitPeek/pull/1": "GitPeek browser extension, built at a GDG hackathon",
     "https://github.com/phileasme/GitPeek/pull/2": None,
+    "https://github.com/hiroyamada/cool_machine/pull/1": None,
 }
 
 
@@ -40,7 +43,8 @@ def entries():
         if repo["fork"] or repo["private"] or repo["name"] in SKIP_REPOS:
             continue
         note = repo["description"] or REPO_NOTES.get(repo["name"], "my own project")
-        yield repo["created_at"][:10], f"[{repo['name']}]({repo['html_url']}): {note}"
+        date = REPO_DATES.get(repo["name"], repo["created_at"][:10])
+        yield date, f"[{repo['name']}]({repo['html_url']}): {note}"
 
 
 def render():
