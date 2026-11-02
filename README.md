@@ -10,9 +10,6 @@ Merged pull requests and my own projects, newest first. A scheduled job rebuilds
 **2023**
 - [spoticron](https://github.com/iamshwin/spoticron): scheduled job that overwrote Spotify's Daily Drive playlist... because I didn't like their algorithm
 
-**2022**
-- [hiroyamada/cool_machine](https://github.com/hiroyamada/cool_machine/pull/1): Add loudspeaker code
-
 **2020**
 - [apache/airflow](https://github.com/apache/airflow/pull/8213): Fix issue #8163 where gcp auth fails
 - [kserve/kserve](https://github.com/kserve/kserve/pull/690): Update README.md
